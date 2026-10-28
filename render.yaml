@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: volna-music-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://volna-music-free-261028.mossycrumb514.chatgpt.site
