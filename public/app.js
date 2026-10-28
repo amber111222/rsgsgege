@@ -17,7 +17,7 @@ const storage = { read(key, fallback) { try { return JSON.parse(localStorage.get
 const fallbackCover = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#455e44"/><circle cx="260" cy="140" r="180" fill="#c6f36b"/><circle cx="260" cy="140" r="115" fill="#344735"/><circle cx="260" cy="140" r="50" fill="#c6f36b"/><path d="M0 300q100-100 200 0t200 0" fill="none" stroke="#d8e7c8" stroke-width="4"/></svg>');
 const API = (window.VOLNA_API_BASE||location.origin).replace(/\/$/,'')+'/api/v1';
 const APP = 'VolnaMusic';
-const audio = new VideoAudioBridge($('#audio'));$('#close-video').onclick=()=>{audio.pause();$('#video-panel').hidden=true;};
+const audio = new VideoAudioBridge($('#audio'));
 const state = { page:'home', history:[], tracks:[], shown:[], queue:[], index:-1, current:null, liked:storage.read('liked-v4',[]), playlists:storage.read('playlists-v4',[]), recent:storage.read('recent-v4',[]), locals:[], loading:true, search:'', genre:'all', offset:0, hasMore:false, busy:false, shuffle:false, repeat:0, pendingAdd:null, searchSeq:0, request:null };
 const mixes = [
  {id:'night',theme:'night',name:'После полуночи',subtitle:'Город затихает. Музыка остаётся.',tag:'NIGHT DRIVE',genre:'Electronic',art:'night drive',number:'01'},
@@ -89,7 +89,7 @@ function toggleLike(t) {if(!t) return;if(t.local){toast('Свои файлы д�
 let playSeq=0;
 async function playAt(index, queue=state.queue) {
  if(!queue.length||!queue[index])return;const seq=++playSeq;state.queue=[...queue];state.index=index;state.current=state.queue[index];const t=state.current;
- audio.pause();audio.track={id:t.id,title:t.title,artist:t.artist};audio.src=safeURL(t.streamUrl);audio.load();$('#now-cover').src=safeURL(t.artwork)||fallbackCover;$('#now-title').textContent=t.title;$('#now-artist').textContent=t.local?t.artist:performerName(t);$('#duration').textContent=time(t.duration);$('#elapsed').textContent='0:00';$('#seek').value=0;$('#seek').disabled=true;$('#play-toggle').classList.add('loading');$('#play-toggle').setAttribute('aria-label','Загрузка трека');markCurrent();renderQueue();
+ audio.pause();audio.track={id:t.id,title:t.title,artist:t.artist};$('#stage-title').textContent=t.title;$('#stage-artist').textContent=t.artist;$('.stage-glow').style.backgroundImage=`url("${safeURL(t.artwork)||fallbackCover}")`;audio.src=safeURL(t.streamUrl);audio.load();$('#now-cover').src=safeURL(t.artwork)||fallbackCover;$('#now-title').textContent=t.title;$('#now-artist').textContent=t.local?t.artist:performerName(t);$('#duration').textContent=time(t.duration);$('#elapsed').textContent='0:00';$('#seek').value=0;$('#seek').disabled=true;$('#play-toggle').classList.add('loading');$('#play-toggle').setAttribute('aria-label','Загрузка трека');markCurrent();renderQueue();
  try {await audio.play();if(seq!==playSeq)return; if(!t.local){state.recent=[t,...state.recent.filter(x=>x.id!==t.id)].slice(0,30);storage.write('recent-v4',state.recent);} }
  catch(e) {if(seq!==playSeq||e.name==='AbortError')return;toast(e.name==='NotAllowedError'?'Нажми play, чтобы браузер разрешил звук.':'Трек сейчас недоступен. Попробуй следующий.');}
  finally {if(seq===playSeq){$('#play-toggle').classList.remove('loading');updatePlay();}}
@@ -120,7 +120,7 @@ audio.addEventListener('loadedmetadata',()=>{$('#duration').textContent=time(aud
 audio.addEventListener('play',updatePlay);audio.addEventListener('pause',updatePlay);audio.addEventListener('ended',()=>state.repeat===2?(audio.currentTime=0,audio.play().catch(()=>toast('Нажми play, чтобы продолжить.'))):next(false));
 audio.addEventListener('error',()=>{if(state.current&&audio.error?.code!==1){$('#play-toggle').classList.remove('loading');toast('Этот трек недоступен для воспроизведения. Выбери другой.');updatePlay();}});
 $('#now-artist').setAttribute('role','button');$('#now-artist').tabIndex=0;$('#now-artist').onclick=()=>openPerformer(state.current);$('#now-artist').onkeydown=e=>{if(e.key==='Enter')openPerformer(state.current);};
-$('#now-like').onclick=()=>toggleLike(state.current);$('#now-cover').src=fallbackCover;
+$('#now-like').onclick=()=>toggleLike(state.current);$('#now-cover').src=fallbackCover;$('#now-cover').setAttribute('role','button');$('#now-cover').setAttribute('aria-label','Открыть карточку трека');$('#now-cover').tabIndex=0;const showTrack=()=>{if(state.current&&!state.current.local)$('#video-panel').scrollIntoView({behavior:'smooth',block:'center'});};$('#now-cover').onclick=showTrack;$('#now-cover').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showTrack();}};
 function queueToggle() {$('#queue-panel').hidden=!$('#queue-panel').hidden;$('#queue-toggle').classList.toggle('active',!$('#queue-panel').hidden);$('#queue-toggle').setAttribute('aria-expanded',!$('#queue-panel').hidden);renderQueue();}
 $('#queue-toggle').onclick=queueToggle;$('#close-queue').onclick=queueToggle;
 $('#create-playlist').onclick=()=>createPlaylist();$('#about-button').onclick=()=>$('#about-dialog').showModal();

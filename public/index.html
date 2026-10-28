@@ -7,8 +7,9 @@
   <meta name="description" content="Волна — музыкальный каталог Deezer, страницы исполнителей, плейлисты и плеер YouTube.">
   <title>Волна — музыка без пауз</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23c6f36b'/%3E%3Cpath d='M12 36q10-27 20 0t20 0M12 25q10-27 20 0t20 0' fill='none' stroke='%23101211' stroke-width='5'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=3">
-  <script src="config.js"></script><script src="video-bridge.js" defer></script><script src="app.js?v=4" defer></script>
+  <link rel="preconnect" href="https://www.youtube.com"><link rel="preconnect" href="https://i.ytimg.com">
+  <link rel="stylesheet" href="styles.css?v=5">
+  <script src="config.js"></script><script src="video-bridge.js?v=5" defer></script><script src="app.js?v=5" defer></script>
 </head>
 <body>
  <div class="app-shell">
@@ -31,6 +32,12 @@
     <form class="search-form" id="search-form" role="search"><span data-icon="search"></span><input class="search-input" id="search-input" type="search" placeholder="Трек, исполнитель или настроение" aria-label="Поиск трека или исполнителя" autocomplete="off"><kbd>/</kbd></form>
     <span class="free-badge"><span class="live-dot"></span> DEEZER + YOUTUBE</span><button class="profile-button" id="profile-button" title="Моя музыка" aria-label="Моя музыка">Я</button>
    </header>
+<section id="video-panel" class="video-panel track-stage" aria-label="Сейчас играет" hidden>
+ <div class="stage-glow" aria-hidden="true"></div>
+ <div class="stage-screen"><div id="youtube-player"></div></div>
+ <div class="stage-copy"><span class="eyebrow">СЕЙЧАС НА ВОЛНЕ</span><h2 id="stage-title"></h2><p id="stage-artist"></p><p id="video-meta">Подбираем запись…</p><a id="video-link" target="_blank" rel="noopener noreferrer">Открыть на YouTube ↗</a>
+ <details class="stage-settings"><summary>Границы песни и источник</summary><p>Отметь, где начинается и заканчивается музыка. Границы сохраняются для этой записи в браузере.</p><div class="trim-controls"><button type="button" id="trim-start">Начало здесь</button><button type="button" id="trim-end">Конец здесь</button><button type="button" id="trim-reset">Сбросить</button></div><output id="trim-status" aria-live="polite">Вся запись</output>
+ <form id="video-manual-form"><label for="video-url">Другая запись YouTube</label><div><input id="video-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required><button class="secondary-btn" type="submit">Открыть</button></div></form></details></div></section>
    <div class="content-wrap" id="page-content" aria-live="polite"></div>
   </main>
  </div>
@@ -40,7 +47,7 @@
   <div class="playback"><div class="transport"><button class="control-btn" id="shuffle" title="Перемешать" aria-label="Перемешать" aria-pressed="false" data-icon="shuffle"></button><button class="control-btn" id="previous" title="Предыдущий трек" aria-label="Предыдущий трек" data-icon="previous"></button><button class="play-toggle" id="play-toggle" aria-label="Воспроизвести" title="Воспроизвести" data-icon="play"></button><button class="control-btn" id="next" title="Следующий трек" aria-label="Следующий трек" data-icon="next"></button><button class="control-btn" id="repeat" title="Повтор выключен" aria-label="Повтор выключен" aria-pressed="false" data-icon="repeat"></button></div><div class="progress-line"><span class="time" id="elapsed">0:00</span><input class="progress-slider" id="seek" type="range" min="0" max="1000" value="0" aria-label="Позиция в треке" disabled><span class="time" id="duration">0:00</span></div></div>
   <div class="player-tools"><span class="audio-quality">AUDIO <b>∞</b></span><button class="control-btn" id="queue-toggle" title="Очередь" aria-label="Открыть очередь" aria-expanded="false" data-icon="queue"></button><button class="control-btn" id="mute" title="Выключить звук" aria-label="Выключить звук" data-icon="volume"></button><input class="volume-slider" id="volume" type="range" min="0" max="100" value="75" aria-label="Громкость"></div>
  </footer>
- <aside id="video-panel" class="video-panel" aria-label="Плеер YouTube" hidden><div class="video-panel-head"><b>YouTube</b><button class="icon-btn" id="close-video" aria-label="Остановить и закрыть видео">×</button></div><div id="youtube-player"></div><p id="video-meta">Ищем запись…</p><a id="video-link" target="_blank" rel="noopener noreferrer">Открыть на YouTube ↗</a><form id="video-manual-form"><label for="video-url">Выбрать другое видео</label><div><input id="video-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required><button class="secondary-btn" type="submit">Открыть</button></div></form></aside><audio id="audio" preload="none"></audio>
+<audio id="audio" preload="none"></audio>
  <dialog class="modal" id="playlist-dialog"><form id="playlist-form"><div class="modal-header"><h2>Новый плейлист</h2><button class="icon-btn" type="button" data-close="playlist-dialog" aria-label="Закрыть" data-icon="close"></button></div><label class="field">Как назовём?<input id="playlist-name" maxlength="70" required placeholder="Например, мой вечер"></label><p class="dialog-note">Плейлисты сохраняются в этом браузере.</p><div class="dialog-actions"><button class="secondary-btn" type="button" data-close="playlist-dialog">Отмена</button><button class="primary-btn" type="submit">Создать плейлист</button></div></form></dialog>
  <dialog class="modal" id="add-dialog"><div class="modal-header"><h2>Сохранить трек</h2><button class="icon-btn" data-close="add-dialog" aria-label="Закрыть" data-icon="close"></button></div><div id="add-playlist-list"></div><button class="secondary-btn" id="create-from-add">+ Новый плейлист</button></dialog>
  <dialog class="modal" id="about-dialog"><div class="modal-header"><h2>Музыка на новой волне</h2><button class="icon-btn" data-close="about-dialog" aria-label="Закрыть" data-icon="close"></button></div><p>Каталог песен, имена исполнителей, обложки и страницы артистов предоставляет Deezer. Воспроизведение — стандартный видимый плеер YouTube. Соответствие найденной записи проверяй по названию и каналу в плеере.</p><p>Доступность зависит от страны и правообладателей. У YouTube может быть реклама. Это приложение не даёт прав на распространение музыки и не обещает наличие всех песен.</p><p>Коллекция сохраняется в этом браузере; файлы с устройства остаются на устройстве.</p></dialog>
