@@ -80,6 +80,44 @@ def tracks(data):
     return [row for t in data.get('data', []) if (row := track_record(t))]
 
 
+def artist_catalogue(artist_id, limit, offset):
+    """Enumerate the artist's real albums; quoted Cyrillic artist searches return no data."""
+    ident = number(artist_id)
+    rows = {}
+    def include(items, album=None):
+        for item in items:
+            if str((item.get('artist') or {}).get('id')) != ident:
+                continue
+            if album and not item.get('album'):
+                item = dict(item, album=album)
+            rows.setdefault(str(item['id']), item)
+    include(deezer('artist/' + ident + '/top', limit=100).get('data', []))
+    wanted = offset + limit
+    album_offset = 0
+    exhausted = False
+    while len(rows) <= wanted and album_offset < 1000:
+        albums = deezer('artist/' + ident + '/albums', limit=100, index=album_offset)
+        batch = albums.get('data', [])
+        for start in range(0, len(batch), 4):
+            group = batch[start:start + 4]
+            def load(album):
+                data = deezer('album/' + number(album['id']) + '/tracks', limit=100)
+                return album, data.get('data', [])
+            with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+                for album, items in pool.map(load, group):
+                    include(items, album)
+            if len(rows) > wanted:
+                break
+        if len(rows) > wanted:
+            break
+        if not albums.get('next'):
+            exhausted = True
+            break
+        album_offset += 100
+    page = list(rows.values())[offset:offset + limit]
+    return {'data': tracks({'data': page}), 'has_more': len(rows) > wanted or not exhausted}
+
+
 def resolve_video(track_id):
     ident = number(track_id)
     def resolve():
@@ -152,11 +190,7 @@ def route(path, query):
         a = deezer('artist/' + number(match[1]))
         if not match[2]:
             return {'data': artist_record(a)}
-        # Exact artist ID prevents namesakes and user uploads being presented as this artist.
-        name = a['name'].replace('"', '')
-        result = deezer('search', q='artist:"' + name + '"', limit=limit, index=offset)
-        result['data'] = [t for t in result.get('data', []) if str((t.get('artist') or {}).get('id')) == str(a['id'])]
-        return {'data': tracks(result), 'has_more': bool(result.get('next'))}
+        return artist_catalogue(a['id'], limit, offset)
     raise LookupError('Неизвестный маршрут')
 
 

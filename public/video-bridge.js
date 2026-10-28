@@ -2,6 +2,7 @@ class VideoAudioBridge extends EventTarget {
   constructor(localAudio) {
     super();this.local=localAudio;this._src='';this._paused=true;this._duration=NaN;this._volume=.75;this._muted=false;this._token=0;this.mode='video';this.error=null;
     for(const type of ['play','pause','ended','timeupdate','loadedmetadata','error'])localAudio.addEventListener(type,()=>{if(this.mode==='local')this.dispatchEvent(new Event(type));});
+    document.querySelector('#video-manual-form').onsubmit=async event=>{event.preventDefault();const input=document.querySelector('#video-url');try{const url=new URL(input.value);const host=url.hostname.toLowerCase();if(!['youtube.com','www.youtube.com','m.youtube.com','youtu.be'].includes(host)||url.protocol!=='https:')throw Error('URL');const id=host==='youtu.be'?url.pathname.slice(1).split('/')[0]:(url.searchParams.get('v')||url.pathname.match(/^\/(?:shorts|embed)\/([\w-]{11})/)?.[1]);if(!/^[\w-]{11}$/.test(id||''))throw Error('ID');const key=new URL(this._src).pathname;try{localStorage.setItem('volna.video.'+key,id);}catch{}this.manualId=id;this.loadedSource='';await this.play();input.value='';}catch{document.querySelector('#video-meta').textContent='Вставь ссылку на конкретное видео YouTube.';}};
     setInterval(()=>{if(this.mode==='video'&&this.player?.getCurrentTime&&!this._paused)this.dispatchEvent(new Event('timeupdate'));},500);
     document.addEventListener('visibilitychange',()=>{if(document.hidden&&this.mode==='video')this.pause();});
   }
@@ -33,16 +34,21 @@ class VideoAudioBridge extends EventTarget {
     this.wanted=true;if(this.mode==='local')return this.local.play();
     const token=this._token;const source=this._src;if(!source)throw new Error('Нет записи');
     document.querySelector('#video-panel').hidden=false;
+    document.querySelector('#video-link').href='https://www.youtube.com/results?search_query='+encodeURIComponent((this.track?.artist||'')+' '+(this.track?.title||''));
+    document.querySelector('#video-link').textContent='Найти запись на YouTube ↗';
+    document.querySelector('#video-meta').textContent='Подбираем запись…';
     try{
       if(this.loadedSource===source){await this.ensurePlayer();this.player.playVideo();return;}
       this.controller=new AbortController();const timer=setTimeout(()=>this.controller.abort(),45000);
-      let match;try{const response=await fetch(source,{signal:this.controller.signal});if(!response.ok)throw Error('Запись не найдена');match=await response.json();}finally{clearTimeout(timer);}
+      let match;let manual=this.manualId;this.manualId=null;try{manual=manual||localStorage.getItem('volna.video.'+new URL(source).pathname);}catch{}
+      try{if(manual)match={videoId:manual,title:this.track?.title||'Выбранное видео',channel:'Запись выбрана тобой'};else{const response=await fetch(source,{signal:this.controller.signal});if(!response.ok)throw Error('Запись не найдена');match=await response.json();}}finally{clearTimeout(timer);}
       if(token!==this._token||!this.wanted)return;
       if(!/^[\w-]{11}$/.test(match.videoId))throw Error('Неверный ответ источника');
       document.querySelector('#video-meta').textContent=match.title+' · '+match.channel;
       document.querySelector('#video-link').href='https://www.youtube.com/watch?v='+match.videoId;
+      document.querySelector('#video-link').textContent='Открыть на YouTube ↗';
       await this.ensurePlayer();if(token!==this._token||!this.wanted)return;
       this.loadedSource=source;this.player.loadVideoById(match.videoId);this.muted=this._muted;
-    }catch(error){if(error.name==='AbortError'||token!==this._token)return;this._paused=true;this.dispatchEvent(new Event('pause'));throw error;}
+    }catch(error){if(error.name==='AbortError'||token!==this._token)return;this._paused=true;document.querySelector('#video-meta').textContent='Автоматический поиск недоступен. Выбери видео на YouTube и вставь ссылку ниже.';this.dispatchEvent(new Event('pause'));throw error;}
   }
 }
