@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "dz-3818963601",
+    "title": "Dracula (with JENNIE)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-134790",
+      "name": "Tame Impala",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/879015e713cc6ad6ffaeec154c027505/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/879015e713cc6ad6ffaeec154c027505/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/134790"
+    },
+    "duration": 209,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b868399da682f34dcd7d98af1c0de80b/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3818963601",
+    "album": "Dracula (with JENNIE)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3895241341",
+    "title": "Boston",
+    "source": "deezer",
+    "user": {
+      "id": "dz-181157207",
+      "name": "STELLA LEFTY",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/181157207"
+    },
+    "duration": 170,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/66d6baca9df5092af22a710ce10d39cf/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3895241341",
+    "album": "Boston",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3602074142",
+    "title": "Choosin' Texas",
+    "source": "deezer",
+    "user": {
+      "id": "dz-14867123",
+      "name": "Ella Langley",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/14867123"
+    },
+    "duration": 232,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/749ad2ad7609ec768e342bec41078095/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3602074142",
+    "album": "Choosin' Texas",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3834003271",
+    "title": "Be Her",
+    "source": "deezer",
+    "user": {
+      "id": "dz-14867123",
+      "name": "Ella Langley",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/14867123"
+    },
+    "duration": 217,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3834003271",
+    "album": "Be Her",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4167204822",
+    "title": "Been By Now",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7188840",
+      "name": "Morgan Wallen",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7188840"
+    },
+    "duration": 213,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/38e835566214fba0d9f0c71d58e16145/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4167204822",
+    "album": "Been By Now",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3838327301",
+    "title": "Be By You",
+    "source": "deezer",
+    "user": {
+      "id": "dz-9626504",
+      "name": "Luke Combs",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/c2a8e5d0d293a06bf887bb2724a780bc/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/c2a8e5d0d293a06bf887bb2724a780bc/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/9626504"
+    },
+    "duration": 197,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/644133900f1391ee0a7e8f84c6572e3a/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3838327301",
+    "album": "Be By You",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-69505566",
+    "title": "Should I Stay or Should I Go (Remastered)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-2",
+      "name": "The Clash",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/82a5fe6ba783cf618d5394ae0b8129b9/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/82a5fe6ba783cf618d5394ae0b8129b9/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/2"
+    },
+    "duration": 186,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/feca97420dd6f5679e7cae61d6d22438/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/69505566",
+    "album": "Hits Back",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4020643591",
+    "title": "Something To Lose",
+    "source": "deezer",
+    "user": {
+      "id": "dz-181157207",
+      "name": "STELLA LEFTY",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/181157207"
+    },
+    "duration": 175,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/30c36833c1fe5b5c398139a4622b65f4/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4020643591",
+    "album": "Is This Heaven?",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3904211281",
+    "title": "Loving Life Again",
+    "source": "deezer",
+    "user": {
+      "id": "dz-14867123",
+      "name": "Ella Langley",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/14867123"
+    },
+    "duration": 226,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3904211281",
+    "album": "Loving Life Again",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-1762460127",
+    "title": "This Is Halloween",
+    "source": "deezer",
+    "user": {
+      "id": "dz-1504061",
+      "name": "The Citizens of Halloween",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/3bad342100eece986a1a09a2cb7f4674/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/3bad342100eece986a1a09a2cb7f4674/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/1504061"
+    },
+    "duration": 196,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/8f7b5eb6fe7c5f0534aa061f8768afc4/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/1762460127",
+    "album": "Nightmare Before Christmas Special Edition",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4078104881",
+    "title": "stupid song",
+    "source": "deezer",
+    "user": {
+      "id": "dz-11152580",
+      "name": "Olivia Rodrigo",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/2c9e480317183c037eaebcd7ba96daf4/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/2c9e480317183c037eaebcd7ba96daf4/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/11152580"
+    },
+    "duration": 209,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/07d6896c8afea3a87dcf9381c3d0e6c7/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4078104881",
+    "album": "you seem pretty sad for a girl so in love",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4208859922",
+    "title": "BbY WOW",
+    "source": "deezer",
+    "user": {
+      "id": "dz-5297021",
+      "name": "KAROL G",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/5b0aab23f8d2856951a92f3a9faf70e3/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/5b0aab23f8d2856951a92f3a9faf70e3/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/5297021"
+    },
+    "duration": 225,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4208859922",
+    "album": "NO ME ARREPIENTO DE SENTIR TANTO",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4250696681",
+    "title": "Nicole Kidman",
+    "source": "deezer",
+    "user": {
+      "id": "dz-306607671",
+      "name": "ADÉLA",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/4101eb12e685a7ea1979071c71011ced/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/4101eb12e685a7ea1979071c71011ced/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/306607671"
+    },
+    "duration": 181,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/68502d8730fa4ce6a41e2cb4db6d2fb7/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4250696681",
+    "album": "PRIMA",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4045817471",
+    "title": "hate that i made you love me",
+    "source": "deezer",
+    "user": {
+      "id": "dz-1562681",
+      "name": "Ariana Grande",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/721d8fab84b315502de422b8d0901509/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/721d8fab84b315502de422b8d0901509/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/1562681"
+    },
+    "duration": 198,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/020b1804e8c8a2aba6770f5b2763847b/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4045817471",
+    "album": "hate that i made you love me",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3092229871",
+    "title": "Better Me For You (Brown Eyes)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-209730607",
+      "name": "Max McNown",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/6f6dc4851916af09bd2f20b84ab3ddc9/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/6f6dc4851916af09bd2f20b84ab3ddc9/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/209730607"
+    },
+    "duration": 194,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/29fc365a0889643be90cc8036861ba52/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3092229871",
+    "album": "Night Diving",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3991431871",
+    "title": "Mexico Honey",
+    "source": "deezer",
+    "user": {
+      "id": "dz-399990",
+      "name": "Kacey Musgraves",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/229fe42ffc5b16b51112ffee967453e1/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/229fe42ffc5b16b51112ffee967453e1/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/399990"
+    },
+    "duration": 223,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/97eafa46695c2708becd77df73766e7c/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3991431871",
+    "album": "Middle of Nowhere",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4304169612",
+    "title": "Patient Zero",
+    "source": "deezer",
+    "user": {
+      "id": "dz-12246",
+      "name": "Taylor Swift",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/cc2495870fe1a792ad0cdb05501ad5ec/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/cc2495870fe1a792ad0cdb05501ad5ec/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/12246"
+    },
+    "duration": 225,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/3b43f946f6478daf5233a41414c34067/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4304169612",
+    "album": "The Life of a Showgirl: The Encore",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-1495839",
+    "title": "St. James Infirmary",
+    "source": "deezer",
+    "user": {
+      "id": "dz-2591",
+      "name": "Cab Calloway",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/2c3d9ed1e39ca0b1af776517490ae6d4/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/2c3d9ed1e39ca0b1af776517490ae6d4/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/2591"
+    },
+    "duration": 183,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/940e3dc3c70ff7de782463b63ddbcd70/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/1495839",
+    "album": "Jukebox Hits 1930-1950",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-366916761",
+    "title": "Semi-Charmed Life",
+    "source": "deezer",
+    "user": {
+      "id": "dz-2473",
+      "name": "Third Eye Blind",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/3701937877f1cdacf055b4a409f064aa/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/3701937877f1cdacf055b4a409f064aa/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/2473"
+    },
+    "duration": 268,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/a09799fc8ef1ea18aa32435bac9cf496/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/366916761",
+    "album": "Third Eye Blind (20th Anniversary Edition)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4015341011",
+    "title": "Dai Dai",
+    "source": "deezer",
+    "user": {
+      "id": "dz-160",
+      "name": "Shakira",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/69c569506a8ff6ab0edfecbd1adf94b0/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/69c569506a8ff6ab0edfecbd1adf94b0/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/160"
+    },
+    "duration": 223,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/a7f9bae0243c512059298a68d09f45a1/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4015341011",
+    "album": "Dai Dai",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-92720048",
+    "title": "You Shook Me All Night Long",
+    "source": "deezer",
+    "user": {
+      "id": "dz-115",
+      "name": "AC/DC",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/7dbc950be70f997ba0cd2b39de7f2aa7/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/7dbc950be70f997ba0cd2b39de7f2aa7/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/115"
+    },
+    "duration": 208,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/92720048",
+    "album": "Back In Black",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-15586246",
+    "title": "Dancing In the Dark",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4762",
+      "name": "Bruce Springsteen",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/7003fc8e2a26471a8bf000b10eff8698/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/7003fc8e2a26471a8bf000b10eff8698/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4762"
+    },
+    "duration": 241,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/106f651bf559796879b90e83c50b3e96/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/15586246",
+    "album": "Born In The U.S.A.",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3842044081",
+    "title": "Empty Words",
+    "source": "deezer",
+    "user": {
+      "id": "dz-11299366",
+      "name": "Corey Kent",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/be3ebcf3153c63151634a5a96bc2c012/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/be3ebcf3153c63151634a5a96bc2c012/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/11299366"
+    },
+    "duration": 152,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/e246281ac591efa3aac48b8e3196de84/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3842044081",
+    "album": "Empty Words",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3978161521",
+    "title": "I Can't Love You Anymore",
+    "source": "deezer",
+    "user": {
+      "id": "dz-14867123",
+      "name": "Ella Langley",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/14867123"
+    },
+    "duration": 228,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/6f8a203c41b9341a87fc0b4d86b9de5c/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3978161521",
+    "album": "I Can't Love You Anymore",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3884901601",
+    "title": "Woman",
+    "source": "deezer",
+    "user": {
+      "id": "dz-827425",
+      "name": "Kane Brown",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/031a975249b648d21f34c5b2bbd3c877/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/031a975249b648d21f34c5b2bbd3c877/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/827425"
+    },
+    "duration": 166,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/84c14dd8a664136f0cf35d54faaed9c2/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3884901601",
+    "album": "Woman",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3697436932",
+    "title": "Kid Myself",
+    "source": "deezer",
+    "user": {
+      "id": "dz-511732",
+      "name": "John Morgan",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/f9080294fcbb50d7b6b1c513c2f0ec54/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/f9080294fcbb50d7b6b1c513c2f0ec54/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/511732"
+    },
+    "duration": 209,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/d86f9db9d0d128de55171015517dfd9c/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3697436932",
+    "album": "Kid Myself",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4058916481",
+    "title": "I Knew It, I Knew You (From \"Toy Story 5\")",
+    "source": "deezer",
+    "user": {
+      "id": "dz-12246",
+      "name": "Taylor Swift",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/cc2495870fe1a792ad0cdb05501ad5ec/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/cc2495870fe1a792ad0cdb05501ad5ec/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/12246"
+    },
+    "duration": 178,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/3524f60445caca0b06a75c30f1e9817c/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4058916481",
+    "album": "I Knew It, I Knew You (From \"Toy Story 5\")",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4057986201",
+    "title": "Cowgirl",
+    "source": "deezer",
+    "user": {
+      "id": "dz-6853437",
+      "name": "Shaboozey",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/9174d458d92286fa767cfaafd4ef9e54/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/9174d458d92286fa767cfaafd4ef9e54/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/6853437"
+    },
+    "duration": 175,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/7d5da87b3a08daa510453962b15fb716/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4057986201",
+    "album": "Cowgirl",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4049283551",
+    "title": "Phone, Keys, Wallet",
+    "source": "deezer",
+    "user": {
+      "id": "dz-6303698",
+      "name": "Lainey Wilson",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/b0e44295204ab831d9e8744236c3cf27/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/b0e44295204ab831d9e8744236c3cf27/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/6303698"
+    },
+    "duration": 172,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/07958cab57c8ec4ea2224703afabcb7a/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4049283551",
+    "album": "Phone, Keys, Wallet",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3406102021",
+    "title": "South Of Sanity",
+    "source": "deezer",
+    "user": {
+      "id": "dz-129324502",
+      "name": "Zach Top",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/61a046e9ed55620ae78359ba03b27ed5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/61a046e9ed55620ae78359ba03b27ed5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/129324502"
+    },
+    "duration": 220,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/57d12f7056016dde26344ff1fda4a312/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3406102021",
+    "album": "Ain't In It For My Health",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3968924241",
+    "title": "I Know I Know",
+    "source": "deezer",
+    "user": {
+      "id": "dz-181157207",
+      "name": "STELLA LEFTY",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/181157207"
+    },
+    "duration": 159,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/de65621f938c574d6f8f5676dca2e68e/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3968924241",
+    "album": "I Know I Know",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3792429142",
+    "title": "McArthur",
+    "source": "deezer",
+    "user": {
+      "id": "dz-405567",
+      "name": "HARDY",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/2313827c5e72bcc7063b15273a2735e4/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/2313827c5e72bcc7063b15273a2735e4/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/405567"
+    },
+    "duration": 231,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/7d99cd02a6ca6b40e54e9b5263b64208/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3792429142",
+    "album": "McArthur",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3911920921",
+    "title": "Country And She Knows It",
+    "source": "deezer",
+    "user": {
+      "id": "dz-242132",
+      "name": "Luke Bryan",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/5a712a221cd7ba25425e3c9060f29ded/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/5a712a221cd7ba25425e3c9060f29ded/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/242132"
+    },
+    "duration": 174,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/37fdabe7f69a4fa7c59d425007dd8c9f/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3911920921",
+    "album": "Country And She Knows It",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2758844701",
+    "title": "Stargazing",
+    "source": "deezer",
+    "user": {
+      "id": "dz-12641355",
+      "name": "Myles Smith",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/88bb713efdddb7df221fc5b82107c290/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/88bb713efdddb7df221fc5b82107c290/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/12641355"
+    },
+    "duration": 172,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/eaf89238495473e9d78eb75e7a181322/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2758844701",
+    "album": "Stargazing",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2658723742",
+    "title": "TEXAS HOLD 'EM",
+    "source": "deezer",
+    "user": {
+      "id": "dz-145",
+      "name": "Beyoncé",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/0aa9d669be4e7310b8647afae37ffaab/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/0aa9d669be4e7310b8647afae37ffaab/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/145"
+    },
+    "duration": 233,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/e50407841497a26457036110eab49f1b/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2658723742",
+    "album": "TEXAS HOLD 'EM",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4232198022",
+    "title": "That's Just Me",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4893551",
+      "name": "Riley Green",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/432eda6fc1dcf5d3643d52130c5717bd/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/432eda6fc1dcf5d3643d52130c5717bd/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4893551"
+    },
+    "duration": 230,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/ad14ed05a3a6c974d28f3b6d29c4baa4/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4232198022",
+    "album": "That's Just Me",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3366677031",
+    "title": "Don't We",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7188840",
+      "name": "Morgan Wallen",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7188840"
+    },
+    "duration": 191,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/c0a95c46e56018109a6786f9e795acb6/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3366677031",
+    "album": "I’m The Problem",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3848530521",
+    "title": "Self Aware",
+    "source": "deezer",
+    "user": {
+      "id": "dz-370177892",
+      "name": "Temper City",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/27b7a29842a30e68a4380b7fe332b6e1/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/27b7a29842a30e68a4380b7fe332b6e1/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/370177892"
+    },
+    "duration": 181,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/4e803aeb014d512c960b5cc7ccaa1800/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3848530521",
+    "album": "Self Aware",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4046115811",
+    "title": "Take Me Back (Leave Me There)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-883421",
+      "name": "Cody Johnson",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/ed5bde5911bc13defa938521d72062c0/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/ed5bde5911bc13defa938521d72062c0/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/883421"
+    },
+    "duration": 178,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/84a5a5efcb2544418ff704da80e1cc0f/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4046115811",
+    "album": "Take Me Back (Leave Me There)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3850104061",
+    "title": "Medicine",
+    "source": "deezer",
+    "user": {
+      "id": "dz-122856502",
+      "name": "Megan Moroney",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/80e2b4588aa126ca5f55ce341ed8bc1c/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/80e2b4588aa126ca5f55ce341ed8bc1c/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/122856502"
+    },
+    "duration": 191,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/198cef16de21eadb6a87ac7e451ad1ac/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3850104061",
+    "album": "Cloud 9",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4203392972",
+    "title": "Jaded",
+    "source": "deezer",
+    "user": {
+      "id": "dz-10796312",
+      "name": "Koe Wetzel",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/492df4f58bde745428024427eec5ab6a/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/492df4f58bde745428024427eec5ab6a/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/10796312"
+    },
+    "duration": 185,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/04e9b4edc5c20eac15d3f1edb0b6c18c/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4203392972",
+    "album": "Jaded",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3899622791",
+    "title": "Rethink Some Things",
+    "source": "deezer",
+    "user": {
+      "id": "dz-9626504",
+      "name": "Luke Combs",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/c2a8e5d0d293a06bf887bb2724a780bc/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/c2a8e5d0d293a06bf887bb2724a780bc/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/9626504"
+    },
+    "duration": 165,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/644133900f1391ee0a7e8f84c6572e3a/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3899622791",
+    "album": "The Way I Am",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3961427991",
+    "title": "Carry On",
+    "source": "deezer",
+    "user": {
+      "id": "dz-347",
+      "name": "Kenny Chesney",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/5cd9430a27a0b68e37b545b7417e9e88/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/5cd9430a27a0b68e37b545b7417e9e88/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/347"
+    },
+    "duration": 180,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/456965ddb2c6d2df7b1ec6baf5ade286/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3961427991",
+    "album": "Carry On",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3056032231",
+    "title": "Good News",
+    "source": "deezer",
+    "user": {
+      "id": "dz-6853437",
+      "name": "Shaboozey",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/9174d458d92286fa767cfaafd4ef9e54/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/9174d458d92286fa767cfaafd4ef9e54/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/6853437"
+    },
+    "duration": 199,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/d5777636ec076cc1e663183b4c4069e9/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3056032231",
+    "album": "Good News",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3726350952",
+    "title": "Sleepless in a Hotel Room",
+    "source": "deezer",
+    "user": {
+      "id": "dz-9626504",
+      "name": "Luke Combs",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/c2a8e5d0d293a06bf887bb2724a780bc/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/c2a8e5d0d293a06bf887bb2724a780bc/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/9626504"
+    },
+    "duration": 177,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/644133900f1391ee0a7e8f84c6572e3a/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3726350952",
+    "album": "Sleepless in a Hotel Room",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3906722231",
+    "title": "Kingdom of Fear",
+    "source": "deezer",
+    "user": {
+      "id": "dz-115331762",
+      "name": "Cameron Whitcomb",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/b44cbd47247c7410cce5a9ca0e54d2dc/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/b44cbd47247c7410cce5a9ca0e54d2dc/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/115331762"
+    },
+    "duration": 161,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b921e011ed251d5c071685f62474ecca/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3906722231",
+    "album": "Kingdom of Fear",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3349000101",
+    "title": "All My Exes",
+    "source": "deezer",
+    "user": {
+      "id": "dz-1218821",
+      "name": "Lauren Alaina",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/39877206f05ea3d8823420da9100317c/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/39877206f05ea3d8823420da9100317c/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/1218821"
+    },
+    "duration": 173,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b9d721031005d908666fbabd1854f988/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3349000101",
+    "album": "All My Exes",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3412534581",
+    "title": "Golden",
+    "source": "deezer",
+    "user": {
+      "id": "dz-330311461",
+      "name": "HUNTR/X",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/02cd2e0137770b59698988a0d6d87625/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/02cd2e0137770b59698988a0d6d87625/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/330311461"
+    },
+    "duration": 192,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/e54bda0628749119f7a9a05b71b40283/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3412534581",
+    "album": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4097861611",
+    "title": "Nothin' Better To Do",
+    "source": "deezer",
+    "user": {
+      "id": "dz-79647972",
+      "name": "Carter Faith",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/20585156cc8bc636b19d02f3ba8d2826/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/20585156cc8bc636b19d02f3ba8d2826/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/79647972"
+    },
+    "duration": 182,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/f5c153e3baecfe5c0119751ea15ba062/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4097861611",
+    "album": "Nothin' Better To Do",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2769846461",
+    "title": "Miles On It",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7890702",
+      "name": "Marshmello",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/7990773a89df9f06fc2b871ad1de00bf/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/7990773a89df9f06fc2b871ad1de00bf/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7890702"
+    },
+    "duration": 168,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/9d3f2ccb89a565d716e40ab894be49e8/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2769846461",
+    "album": "Miles On It",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2780753191",
+    "title": "I Had Some Help",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7543848",
+      "name": "Post Malone",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/a5a8cca44e7eab2db7d44e039bed2574/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/a5a8cca44e7eab2db7d44e039bed2574/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7543848"
+    },
+    "duration": 178,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b9c8cc4fd597a9bc516445e6573501cf/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2780753191",
+    "album": "I Had Some Help",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3454677991",
+    "title": "JUMP",
+    "source": "deezer",
+    "user": {
+      "id": "dz-10803980",
+      "name": "BLACKPINK",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/89675729453893a91be35bde691050ff/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/89675729453893a91be35bde691050ff/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/10803980"
+    },
+    "duration": 164,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/6ef57c5bebc2c8ff9710cf3eca0addb0/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3454677991",
+    "album": "JUMP",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-775757002",
+    "title": "Interstate Love Song (2019 Remaster)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4435",
+      "name": "Stone Temple Pilots",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/a33898522587a8e6bb627481ff34f739/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/a33898522587a8e6bb627481ff34f739/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4435"
+    },
+    "duration": 194,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/da95a6425cc28760ea5e19068a3baea7/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/775757002",
+    "album": "Purple (Super Deluxe Edition) (2019 Remaster)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-69962765",
+    "title": "Rock the Casbah (Remastered)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-2",
+      "name": "The Clash",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/82a5fe6ba783cf618d5394ae0b8129b9/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/82a5fe6ba783cf618d5394ae0b8129b9/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/2"
+    },
+    "duration": 223,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/dcb57e195538467662fbce4492f89c20/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/69962765",
+    "album": "Combat Rock (Remastered)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4115964581",
+    "title": "Go Again",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4893551",
+      "name": "Riley Green",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/432eda6fc1dcf5d3643d52130c5717bd/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/432eda6fc1dcf5d3643d52130c5717bd/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4893551"
+    },
+    "duration": 240,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/ad14ed05a3a6c974d28f3b6d29c4baa4/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4115964581",
+    "album": "Go Again",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4139822381",
+    "title": "Overrated",
+    "source": "deezer",
+    "user": {
+      "id": "dz-117467152",
+      "name": "Warren Zeiders",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/38a11531f60d4ae8a232dbcc182cdce2/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/38a11531f60d4ae8a232dbcc182cdce2/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/117467152"
+    },
+    "duration": 186,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/ff9a52487ed24fe66d94faf7d84961ca/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4139822381",
+    "album": "No Brakes",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3540344801",
+    "title": "GO!",
+    "source": "deezer",
+    "user": {
+      "id": "dz-345377831",
+      "name": "CORTIS",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/4b7127ce3172e9618728706721211f90/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/4b7127ce3172e9618728706721211f90/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/345377831"
+    },
+    "duration": 170,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/8f9f78c1d05272b49f357a7603c6a5eb/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3540344801",
+    "album": "COLOR OUTSIDE THE LINES",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2881248402",
+    "title": "Am I Okay?",
+    "source": "deezer",
+    "user": {
+      "id": "dz-122856502",
+      "name": "Megan Moroney",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/80e2b4588aa126ca5f55ce341ed8bc1c/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/80e2b4588aa126ca5f55ce341ed8bc1c/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/122856502"
+    },
+    "duration": 235,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/f505e162507b57bbd720084219f72370/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2881248402",
+    "album": "Am I Okay?",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4098248331",
+    "title": "Another Drink",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7890702",
+      "name": "Marshmello",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/7990773a89df9f06fc2b871ad1de00bf/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/7990773a89df9f06fc2b871ad1de00bf/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7890702"
+    },
+    "duration": 153,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/d4575025d97dd15fe46e6a77766961ff/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4098248331",
+    "album": "Another Drink",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4304962762",
+    "title": "Snakeskin Boots",
+    "source": "deezer",
+    "user": {
+      "id": "dz-5057",
+      "name": "Miranda Lambert",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/b89bf542963c84b47b14a0f3d1697ff3/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/b89bf542963c84b47b14a0f3d1697ff3/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/5057"
+    },
+    "duration": 255,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/2df33f46c39d45d822fad9959fc9a3b8/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4304962762",
+    "album": "Crisco",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3398438561",
+    "title": "Killin’ Me",
+    "source": "deezer",
+    "user": {
+      "id": "dz-6780317",
+      "name": "Parker McCollum",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/6fcc8a87198309be9cbd4ccd469fe2d6/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/6fcc8a87198309be9cbd4ccd469fe2d6/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/6780317"
+    },
+    "duration": 197,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/7b9b9fa80be974b6805c49511f84c1d8/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3398438561",
+    "album": "Killin' Me",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3422854111",
+    "title": "Last One To Know",
+    "source": "deezer",
+    "user": {
+      "id": "dz-142015752",
+      "name": "Gavin Adcock",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/030c614b6aaf71d9aeddb2cc0b70372a/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/030c614b6aaf71d9aeddb2cc0b70372a/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/142015752"
+    },
+    "duration": 177,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/991d151f8a36c711f8be772dd1f0cf81/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3422854111",
+    "album": "Last One To Know",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3765666312",
+    "title": "butterflies.",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7397124",
+      "name": "Brent Faiyaz",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/b8e169149cdba38bbabcb8ec9d0388a8/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/b8e169149cdba38bbabcb8ec9d0388a8/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7397124"
+    },
+    "duration": 248,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b52aae18698a693e767e47a768153f57/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3765666312",
+    "album": "Icon",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2851460892",
+    "title": "Everything She Ain’t",
+    "source": "deezer",
+    "user": {
+      "id": "dz-8702226",
+      "name": "Hailey Whitters",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/f3ed3a21547802fc886eeabe9653b7cb/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/f3ed3a21547802fc886eeabe9653b7cb/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/8702226"
+    },
+    "duration": 151,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/263d4f35b7693cb3dc65a0fc19725d50/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2851460892",
+    "album": "Everything She Ain’t",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2397171765",
+    "title": "Edge of the Earth",
+    "source": "deezer",
+    "user": {
+      "id": "dz-468748",
+      "name": "The Beaches",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/bebda05ba557459d0acea61afad0fd60/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/bebda05ba557459d0acea61afad0fd60/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/468748"
+    },
+    "duration": 160,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/ddb9659de210aae7c26c0c1d9c845994/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2397171765",
+    "album": "Blame My Ex",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2282888837",
+    "title": "Psychopath",
+    "source": "deezer",
+    "user": {
+      "id": "dz-52884092",
+      "name": "Morgan Wade",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/32da0eff6961ce356a6533cc256a3ef6/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/32da0eff6961ce356a6533cc256a3ef6/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/52884092"
+    },
+    "duration": 208,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/8f9a3aefc894641eb8771e272de0ac96/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2282888837",
+    "album": "Psychopath",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3444259331",
+    "title": "Water At A Wedding",
+    "source": "deezer",
+    "user": {
+      "id": "dz-1584917",
+      "name": "Greylan James",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/fcba6cf43321bcaf8eded4a9c5bed43e/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/fcba6cf43321bcaf8eded4a9c5bed43e/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/1584917"
+    },
+    "duration": 213,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/3e51bd9b9b353b5168a847bb06e71512/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3444259331",
+    "album": "Water At A Wedding",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3366676861",
+    "title": "What I Want",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7188840",
+      "name": "Morgan Wallen",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7188840"
+    },
+    "duration": 184,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/c0a95c46e56018109a6786f9e795acb6/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3366676861",
+    "album": "I’m The Problem",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3151351511",
+    "title": "back to friends",
+    "source": "deezer",
+    "user": {
+      "id": "dz-145468192",
+      "name": "sombr",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/82ef9a2db0c80f8588569d955c78d695/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/82ef9a2db0c80f8588569d955c78d695/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/145468192"
+    },
+    "duration": 199,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/37a20b62f754b7ff5a9a29a8f2fe9d27/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3151351511",
+    "album": "back to friends",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3812467942",
+    "title": "Get To Drinkin'",
+    "source": "deezer",
+    "user": {
+      "id": "dz-200995177",
+      "name": "Zach John King",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/da084b7cde4e44d1d1460e26ac5d3173/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/da084b7cde4e44d1d1460e26ac5d3173/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/200995177"
+    },
+    "duration": 168,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/eb346f5ec36a307c3e645b092bf2fee4/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3812467942",
+    "album": "Get To Drinkin'",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3651959272",
+    "title": "White Keys",
+    "source": "deezer",
+    "user": {
+      "id": "dz-13864157",
+      "name": "Dominic Fike",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/e0b1589f2025116e79a400b37790edd5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/e0b1589f2025116e79a400b37790edd5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/13864157"
+    },
+    "duration": 141,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/17740f41f75d6c7af202fbf4b6dc6782/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3651959272",
+    "album": "White Keys",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2309923445",
+    "title": "Glory Days",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4554677",
+      "name": "Gabby Barrett",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/aff0dc075bdeffaf0565f5089b5f0c51/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/aff0dc075bdeffaf0565f5089b5f0c51/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4554677"
+    },
+    "duration": 162,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/50ccc6c767aeffdee8d4833652cad54a/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2309923445",
+    "album": "Glory Days",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4160471862",
+    "title": "Good Girls & Cowgirls",
+    "source": "deezer",
+    "user": {
+      "id": "dz-129324502",
+      "name": "Zach Top",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/61a046e9ed55620ae78359ba03b27ed5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/61a046e9ed55620ae78359ba03b27ed5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/129324502"
+    },
+    "duration": 184,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/70289fc98520b5e178a1336f513c44d6/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4160471862",
+    "album": "Good Girls & Cowgirls",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3467274001",
+    "title": "Worth Your Wild",
+    "source": "deezer",
+    "user": {
+      "id": "dz-8643164",
+      "name": "Russell Dickerson",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/034bb444fffbc7b381c55caa08e78474/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/034bb444fffbc7b381c55caa08e78474/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/8643164"
+    },
+    "duration": 169,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/5c5836d36d7ce71673b967a3a32d58cc/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3467274001",
+    "album": "Worth Your Wild",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-88643787",
+    "title": "Could It Be I'm Falling in Love",
+    "source": "deezer",
+    "user": {
+      "id": "dz-5174343",
+      "name": "Dash Of Honey",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/9d5eaa668bb8d6f1f01d584c82d946f9/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/9d5eaa668bb8d6f1f01d584c82d946f9/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/5174343"
+    },
+    "duration": 168,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/9d5eaa668bb8d6f1f01d584c82d946f9/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/88643787",
+    "album": "The Soul You Want",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3612077412",
+    "title": "Beautiful Things",
+    "source": "deezer",
+    "user": {
+      "id": "dz-122856502",
+      "name": "Megan Moroney",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/80e2b4588aa126ca5f55ce341ed8bc1c/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/80e2b4588aa126ca5f55ce341ed8bc1c/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/122856502"
+    },
+    "duration": 235,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/189cb563d736d7863e9e7e9136909ab5/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3612077412",
+    "album": "Beautiful Things",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3961505671",
+    "title": "Bet On That",
+    "source": "deezer",
+    "user": {
+      "id": "dz-276577691",
+      "name": "Blake Whiten",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/3baf4c5aefd17d7de7521d04b34804c2/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/3baf4c5aefd17d7de7521d04b34804c2/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/276577691"
+    },
+    "duration": 190,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/a5a4089ebb029a2ba8228938a4954d23/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3961505671",
+    "album": "Bet On That",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3678837252",
+    "title": "Rocky Mountain Low",
+    "source": "deezer",
+    "user": {
+      "id": "dz-11299366",
+      "name": "Corey Kent",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/be3ebcf3153c63151634a5a96bc2c012/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/be3ebcf3153c63151634a5a96bc2c012/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/11299366"
+    },
+    "duration": 168,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b8957a428b8b689f7133eafdc838f6e5/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3678837252",
+    "album": "Rocky Mountain Low",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3537727781",
+    "title": "Move On",
+    "source": "deezer",
+    "user": {
+      "id": "dz-8703826",
+      "name": "Kevin Powers",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/774b3084fa30e9f20b47cd0a4d51e0f7/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/774b3084fa30e9f20b47cd0a4d51e0f7/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/8703826"
+    },
+    "duration": 191,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/bce18d52e1a722b2b222ffca57e4b605/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3537727781",
+    "album": "Move On",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4279391082",
+    "title": "Ten Pairs Of Boots",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4893551",
+      "name": "Riley Green",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/432eda6fc1dcf5d3643d52130c5717bd/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/432eda6fc1dcf5d3643d52130c5717bd/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4893551"
+    },
+    "duration": 220,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/ad14ed05a3a6c974d28f3b6d29c4baa4/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4279391082",
+    "album": "That's Just Me",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-97098410",
+    "title": "Jump (2015 Remaster)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-1168",
+      "name": "Van Halen",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/df8a8ba1d58fe78d173f1fae5e9e8fc3/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/df8a8ba1d58fe78d173f1fae5e9e8fc3/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/1168"
+    },
+    "duration": 241,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/0649448bcdeeeb48c25edc0e83653711/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/97098410",
+    "album": "1984 (Remastered)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3945147781",
+    "title": "Bottom Of Your Boots",
+    "source": "deezer",
+    "user": {
+      "id": "dz-14867123",
+      "name": "Ella Langley",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/77aa9c0c9d9789bb43151a3882166d20/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/14867123"
+    },
+    "duration": 199,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3945147781",
+    "album": "Dandelion",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4323334062",
+    "title": "Kinda Love It",
+    "source": "deezer",
+    "user": {
+      "id": "dz-6303698",
+      "name": "Lainey Wilson",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/b0e44295204ab831d9e8744236c3cf27/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/b0e44295204ab831d9e8744236c3cf27/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/6303698"
+    },
+    "duration": 207,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/1d299b8c04f21de42b2529da341cbeac/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4323334062",
+    "album": "Kinda Love It",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4037523341",
+    "title": "Appalachian Raised",
+    "source": "deezer",
+    "user": {
+      "id": "dz-162866587",
+      "name": "Cigarettes @ Sunset",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/f2502109f84d43cfe374167d71a06071/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/f2502109f84d43cfe374167d71a06071/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/162866587"
+    },
+    "duration": 223,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/6fb1949c011adecda5a6507b3e697cde/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4037523341",
+    "album": "Appalachian Raised",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4208855692",
+    "title": "Lean In, Kiss Me",
+    "source": "deezer",
+    "user": {
+      "id": "dz-181157207",
+      "name": "STELLA LEFTY",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/67cc073ca1341421e400f5f6d8a102f5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/181157207"
+    },
+    "duration": 159,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/8bffa30994d72ecb0f7f009b99c168fd/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4208855692",
+    "album": "Lean In, Kiss Me",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3503857201",
+    "title": "Man I Need",
+    "source": "deezer",
+    "user": {
+      "id": "dz-75659582",
+      "name": "Olivia Dean",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/fed7c3b756cf6049da62988cb8e744be/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/fed7c3b756cf6049da62988cb8e744be/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/75659582"
+    },
+    "duration": 184,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/73eb46e655061c72096b67f70a8dc609/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3503857201",
+    "album": "Man I Need",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-490821062",
+    "title": "Tieduprightnow",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7626764",
+      "name": "Parcels",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/a113c773971815e0680c1039980f1be4/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/a113c773971815e0680c1039980f1be4/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7626764"
+    },
+    "duration": 249,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/bde761c4db175eab7504fc50d9ffb451/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/490821062",
+    "album": "Tieduprightnow",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3042275231",
+    "title": "Indigo (feat. Avery Anna)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-84776892",
+      "name": "Sam Barber",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/5ff0245fea856941a6ae26e4e6992af9/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/5ff0245fea856941a6ae26e4e6992af9/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/84776892"
+    },
+    "duration": 286,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/9fd9060352b773f6de7ebdf377e72698/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3042275231",
+    "album": "Restless Mind",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3954011401",
+    "title": "I Want You",
+    "source": "deezer",
+    "user": {
+      "id": "dz-883421",
+      "name": "Cody Johnson",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/ed5bde5911bc13defa938521d72062c0/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/ed5bde5911bc13defa938521d72062c0/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/883421"
+    },
+    "duration": 190,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/84a5a5efcb2544418ff704da80e1cc0f/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3954011401",
+    "album": "Banks Of The Trinity",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4292571182",
+    "title": "Last Thing You Need (from GTAVI: The Album)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-7188840",
+      "name": "Morgan Wallen",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/99726f6c15793e8d34ec6e93597049c8/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/7188840"
+    },
+    "duration": 196,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/dc492b8d028525c713a52713b9bb005d/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4292571182",
+    "album": "Last Thing You Need (from GTAVI: The Album)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2069073587",
+    "title": "I Wanna Dance with Somebody (Who Loves Me)",
+    "source": "deezer",
+    "user": {
+      "id": "dz-174",
+      "name": "Whitney Houston",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/7d7916383f536969db91430a2707d3c0/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/7d7916383f536969db91430a2707d3c0/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/174"
+    },
+    "duration": 293,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/0a9ca37020494e89898c68f617ca396a/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2069073587",
+    "album": "I Wanna Dance With Somebody (The Movie: Whitney New, Classic and Reimagined)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-84990241",
+    "title": "The Munsters",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4913844",
+      "name": "KnightsBridge",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/f8d9f9c2cfc8dd1d45df203f3b558666/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/f8d9f9c2cfc8dd1d45df203f3b558666/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4913844"
+    },
+    "duration": 45,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/f8d9f9c2cfc8dd1d45df203f3b558666/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/84990241",
+    "album": "100 Hits: TV Themes",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3406101911",
+    "title": "Good Times & Tan Lines",
+    "source": "deezer",
+    "user": {
+      "id": "dz-129324502",
+      "name": "Zach Top",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/61a046e9ed55620ae78359ba03b27ed5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/61a046e9ed55620ae78359ba03b27ed5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/129324502"
+    },
+    "duration": 160,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/57d12f7056016dde26344ff1fda4a312/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3406101911",
+    "album": "Ain't In It For My Health",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-13144323",
+    "title": "Before He Cheats",
+    "source": "deezer",
+    "user": {
+      "id": "dz-4388",
+      "name": "Carrie Underwood",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/5d7c70c8d9d47e2c928b93ac0ff8d4fe/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/5d7c70c8d9d47e2c928b93ac0ff8d4fe/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/4388"
+    },
+    "duration": 200,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/1e6671d78586231350f8eda9097d0036/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/13144323",
+    "album": "Some Hearts",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3589251791",
+    "title": "Travelin' Soldier",
+    "source": "deezer",
+    "user": {
+      "id": "dz-883421",
+      "name": "Cody Johnson",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/ed5bde5911bc13defa938521d72062c0/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/ed5bde5911bc13defa938521d72062c0/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/883421"
+    },
+    "duration": 255,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/229ce6e798bc46c60e2bcb8677e3c972/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3589251791",
+    "album": "Travelin' Soldier",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3975391771",
+    "title": "Daisies",
+    "source": "deezer",
+    "user": {
+      "id": "dz-5226738",
+      "name": "Lily Meola",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/1c8a788cb699e184edf807c624aae35d/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/1c8a788cb699e184edf807c624aae35d/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/5226738"
+    },
+    "duration": 223,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/144924d1b7b1e03f37c6711067886d60/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3975391771",
+    "album": "Daisies",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-4279387502",
+    "title": "Finders Keepers",
+    "source": "deezer",
+    "user": {
+      "id": "dz-242132",
+      "name": "Luke Bryan",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/5a712a221cd7ba25425e3c9060f29ded/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/5a712a221cd7ba25425e3c9060f29ded/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/242132"
+    },
+    "duration": 223,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/7689c02880d099ccfc044ba75b659998/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/4279387502",
+    "album": "Finders Keepers",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-3870486061",
+    "title": "No Need For Leavin'",
+    "source": "deezer",
+    "user": {
+      "id": "dz-73725592",
+      "name": "Kameron Marlowe",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/86038b0051922b26c57450fb6d1e862f/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/86038b0051922b26c57450fb6d1e862f/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/73725592"
+    },
+    "duration": 215,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/5f8ad0262208e17f5ae37672f4ec3ae5/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/3870486061",
+    "album": "No Need For Leavin'",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-2248171147",
+    "title": "World on Fire",
+    "source": "deezer",
+    "user": {
+      "id": "dz-67218672",
+      "name": "Nate Smith",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/4f78592c805de81985b35fcb18b74396/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/4f78592c805de81985b35fcb18b74396/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/67218672"
+    },
+    "duration": 189,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/2bcd7830fe12af588bcc44774fdc0edf/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/2248171147",
+    "album": "NATE SMITH (DELUXE)",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  },
+  {
+    "id": "dz-538660022",
+    "title": "Livin' On A Prayer",
+    "source": "deezer",
+    "user": {
+      "id": "dz-637",
+      "name": "Bon Jovi",
+      "handle": "",
+      "is_verified": false,
+      "source": "deezer",
+      "bio": "",
+      "track_count": 0,
+      "album_count": 0,
+      "follower_count": 0,
+      "profile_picture": {
+        "480x480": "https://cdn-images.dzcdn.net/images/artist/3ebdb0ff80286da236109a0fc79d0cb5/500x500-000000-80-0-0.jpg",
+        "150x150": "https://cdn-images.dzcdn.net/images/artist/3ebdb0ff80286da236109a0fc79d0cb5/250x250-000000-80-0-0.jpg"
+      },
+      "link": "https://www.deezer.com/artist/637"
+    },
+    "duration": 249,
+    "genre": "Deezer",
+    "artwork": {
+      "480x480": "https://cdn-images.dzcdn.net/images/cover/1f0365311a9d03c267f175e0ef79f40c/500x500-000000-80-0-0.jpg"
+    },
+    "permalink": "https://www.deezer.com/track/538660022",
+    "album": "Slippery When Wet",
+    "is_streamable": true,
+    "is_stream_gated": false,
+    "playback_provider": "youtube",
+    "playback_requires_match": true
+  }
+]
