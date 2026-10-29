@@ -20,7 +20,8 @@ class VideoAudioBridge extends EventTarget {
   get muted(){return this._muted;}
   set muted(value){this._muted=!!value;this.local.muted=this._muted;if(this._muted)this.player?.mute?.();else this.player?.unMute?.();}
   load(){this._token++;this.controller?.abort();this.loadedSource='';this.videoId='';this.trim={start:0,end:0};this.trimEnded=false;this.updateTrim();this._paused=true;this.error=null;this.local.pause();this.player?.stopVideo?.();if(this.mode==='local'){this.local.load();document.querySelector('#video-panel').hidden=true;}this.dispatchEvent(new Event('pause'));}
-  pause(){this.wanted=false;if(this.mode==='local')this.local.pause();else{this.player?.pauseVideo?.();this._paused=true;this.dispatchEvent(new Event('pause'));}}
+  pause(){this._token++;this.controller?.abort();this.wanted=false;if(this.mode==='local')this.local.pause();else{this.player?.pauseVideo?.();this._paused=true;this.dispatchEvent(new Event('pause'));}}
+  get elapsedSinceStart(){return Math.max(0,this.currentTime-(this.mode==='video'?this.trim.start:0));}
   updateTrim(){
     const fmt=n=>`${Math.floor(n/60)}:${String(Math.floor(n%60)).padStart(2,'0')}`;
     document.querySelector('#trim-status').textContent=this.trim.start||this.trim.end?`${fmt(this.trim.start)} → ${this.trim.end?fmt(this.trim.end):'конец записи'}`:'Вся запись';
@@ -47,18 +48,18 @@ class VideoAudioBridge extends EventTarget {
       const timer=setTimeout(()=>reject(new Error('Плеер YouTube не загрузился')),18000);
       const create=()=>{this.player=new YT.Player('youtube-player',{width:'100%',height:203,playerVars:{playsinline:1,origin:location.origin},events:{
         onReady:()=>{clearTimeout(timer);this.player.setVolume(this._volume*100);resolve(this.player);},
-        onStateChange:e=>{if(this.mode!=='video')return;this._paused=e.data!==1;if(e.data===1){this._duration=this.player.getDuration();this.dispatchEvent(new Event('loadedmetadata'));this.dispatchEvent(new Event('play'));}else if(e.data===0){this.dispatchEvent(new Event('pause'));this.dispatchEvent(new Event('ended'));}else if(e.data===2)this.dispatchEvent(new Event('pause'));},
+        onStateChange:e=>{if(this.mode!=='video'||!this.loadedSource||!this.wanted)return;this._paused=e.data!==1;if(e.data===1){this._duration=this.player.getDuration();this.dispatchEvent(new Event('loadedmetadata'));this.dispatchEvent(new Event('play'));}else if(e.data===0){this.dispatchEvent(new Event('pause'));this.dispatchEvent(new Event('ended'));}else if(e.data===2)this.dispatchEvent(new Event('pause'));},
         onError:()=>{try{const key='volna.match.'+new URL(this._src).pathname;localStorage.removeItem(key);this.matches.delete(key);}catch{}this.loadedSource='';this._paused=true;this.error={code:4};this.dispatchEvent(new Event('error'));}
       }});};
       if(window.YT?.Player)create();else{window.onYouTubeIframeAPIReady=create;const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';script.onerror=()=>{clearTimeout(timer);reject(new Error('YouTube недоступен'));};document.head.append(script);}
     }).catch(error=>{this.playerReady=null;throw error;});return this.playerReady;
   }
   async play(){
-    this.wanted=true;if(this.mode==='local')return this.local.play();
-    const token=this._token;const source=this._src;if(!source)throw new Error('Нет записи');
+    const token=++this._token;this.controller?.abort();this.wanted=true;if(this.mode==='local')return this.local.play();
+    const source=this._src;if(!source)throw new Error('Нет записи');
     document.querySelector('#video-panel').hidden=false;
     try{
-      if(this.loadedSource===source){await this.ensurePlayer();if(this.trimEnded||this.currentTime<(this.trim.start||0))this.currentTime=this.trim.start||0;this.player.playVideo();return;}
+      if(this.loadedSource===source){await this.ensurePlayer();if(token!==this._token||!this.wanted)return;if(this.trimEnded||this.currentTime<(this.trim.start||0))this.currentTime=this.trim.start||0;this.player.playVideo();return;}
     document.querySelector('#video-link').href='https://www.youtube.com/results?search_query='+encodeURIComponent((this.track?.artist||'')+' '+(this.track?.title||''));
     document.querySelector('#video-link').textContent='Найти запись на YouTube ↗';
     document.querySelector('#video-meta').textContent='Подбираем запись…';
