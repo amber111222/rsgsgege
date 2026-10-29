@@ -3,11 +3,13 @@
 No audio extraction, media proxying, account cookies or subscription bypass.
 """
 import concurrent.futures
+import html
 import json
 import os
 import re
 import threading
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -20,6 +22,22 @@ CACHE = {}
 LOCK = threading.Lock()
 RESOLVER_SLOTS = threading.BoundedSemaphore(2)
 GENRES = {'Electronic': 106, 'Hip-Hop/Rap': 116, 'Pop': 132, 'Jazz': 129, 'Alternative': 85, 'Ambient': 98}
+CYRILLIC_LATIN = str.maketrans(dict(zip(
+    'абвгдеёжзийклмнопрстуфхцчшщъыьэюяіїє',
+    ['a', 'b', 'v', 'g', 'd', 'e', 'e', 'zh', 'z', 'i', 'i', 'k', 'l', 'm', 'n', 'o',
+     'p', 'r', 's', 't', 'u', 'f', 'kh', 'ts', 'ch', 'sh', 'shch', '', 'y', '', 'e', 'yu', 'ya', 'i', 'i', 'e'])))
+SPOKEN_WORDS = {'interview', 'interviews', 'intervyu', 'interviu', 'podcast', 'podcasts', 'podkast', 'podkasty'}
+
+
+def words(value):
+    """Comparable whole words for catalogue Cyrillic and Latin video metadata."""
+    text = html.unescape(str(value or '')).casefold().translate(CYRILLIC_LATIN)
+    text = ''.join(c for c in unicodedata.normalize('NFKD', text) if not unicodedata.combining(c))
+    return re.findall(r'[a-z0-9]+', text)
+
+
+def is_spoken_title(title):
+    return bool(set(words(title)) & SPOKEN_WORDS)
 
 
 def cached(key, ttl, loader):
@@ -65,7 +83,7 @@ def artist_record(a):
 
 def track_record(t):
     a = t.get('artist') or {}
-    if not a.get('id'):
+    if not a.get('id') or is_spoken_title(t.get('title', '')):
         return None
     album = t.get('album') or {}
     return {'id': 'dz-' + number(t['id']), 'title': t.get('title', ''), 'source': 'deezer',
@@ -87,6 +105,8 @@ def artist_catalogue(artist_id, limit, offset):
     def include(items, album=None):
         for item in items:
             if str((item.get('artist') or {}).get('id')) != ident:
+                continue
+            if is_spoken_title(item.get('title', '')):
                 continue
             if album and not item.get('album'):
                 item = dict(item, album=album)
@@ -118,11 +138,81 @@ def artist_catalogue(artist_id, limit, offset):
     return {'data': tracks({'data': page}), 'has_more': len(rows) > wanted or not exhausted}
 
 
+def title_words(value):
+    # Collaborators and mastering labels vary between the album and video title.
+    text = html.unescape(str(value or ''))
+    text = re.sub(r'\([^)]*(?:feat\.?|ft\.?|with\b|remaster)[^)]*\)', '', text, flags=re.I)
+    text = re.split(r'\s+(?:feat\.?|ft\.?)\s+', text, maxsplit=1, flags=re.I)[0]
+    text = re.sub(r'\s*[-–—]\s*(?:\d{4}\s+)?remaster(?:ed)?(?:\s+\d{4})?\s*$', '', text, flags=re.I)
+    return set(words(text))
+
+
+def video_candidates(track, entries):
+    """Accept metadata matches, rather than silently playing the closest search hit.
+
+    Search snippets are not proof that a video is the requested song. Require the
+    primary artist, song words and a plausible duration; never accept interviews
+    even if they happen to mention the artist and song. No media is downloaded.
+    """
+    expected_title = title_words(track.get('title'))
+    expected_artist = set(words((track.get('artist') or {}).get('name'))) - {'and'}
+    expected_duration = track.get('duration') or 0
+    if not expected_title or not expected_artist or not isinstance(expected_duration, (int, float)) or expected_duration <= 0:
+        return []
+    tolerance = min(45, max(12, expected_duration * .15))
+    variants = {'cover', 'karaoke', 'reaction', 'reaktsiya', 'nightcore', 'sped', 'slowed', 'live', 'remix', 'instrumental', 'akustika', 'acoustic'}
+    expected_variants = set(words(track.get('title')))
+    matches = []
+    for entry in entries:
+        video_id = entry.get('id', '')
+        if not re.fullmatch(r'[A-Za-z0-9_-]{11}', video_id):
+            continue
+        title = entry.get('title') or ''
+        channel = entry.get('channel') or entry.get('uploader') or ''
+        title_tokens = set(words(title))
+        channel_tokens = set(words(channel))
+        duration = entry.get('duration')
+        if (is_spoken_title(title) or (title_tokens & variants) - expected_variants
+                or entry.get('is_live') or entry.get('live_status') in {'is_live', 'is_upcoming'}
+                or entry.get('availability') in {'private', 'premium_only', 'subscriber_only', 'needs_auth'}):
+            continue
+        if not expected_title.issubset(title_tokens) or not expected_artist.issubset(title_tokens | channel_tokens):
+            continue
+        if not isinstance(duration, (int, float)) or duration <= 0 or abs(duration - expected_duration) > tolerance:
+            continue
+        score = (25 * ('topic' in channel_tokens) + 10 * expected_artist.issubset(channel_tokens)
+                 + 5 * ('official' in title_tokens) - abs(duration - expected_duration))
+        matches.append((score, {'videoId': video_id, 'title': title, 'channel': channel,
+                                'duration': duration, 'watchUrl': 'https://www.youtube.com/watch?v=' + video_id}))
+    ranked = []
+    seen = set()
+    for _, candidate in sorted(matches, key=lambda item: item[0], reverse=True):
+        if candidate['videoId'] not in seen:
+            ranked.append(candidate)
+            seen.add(candidate['videoId'])
+        if len(ranked) == 3:
+            break
+    return ranked
+
+
+def video_result(track, entries):
+    candidates = video_candidates(track, entries)
+    if not candidates:
+        raise LookupError('Не удалось надёжно найти музыкальную запись. Выбери видео вручную или открой поиск YouTube.')
+    return dict(candidates[0], candidates=candidates, provider='youtube', match='metadata', adsMayAppear=True)
+
+
+def iso_duration(value):
+    match = re.fullmatch(r'PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+(?:\.\d+)?)S)?', str(value))
+    return sum(float(n or 0) * unit for n, unit in zip(match.groups(), (3600, 60, 1))) if match else 0
+
+
 def resolve_video(track_id):
     ident = number(track_id)
     def resolve():
-        import yt_dlp
         t = deezer('track/' + ident)
+        if is_spoken_title(t.get('title', '')):
+            raise LookupError('Эта запись относится к интервью или подкасту. Выбери музыкальный трек.')
         query = (t['artist']['name'] + ' ' + t['title'] + ' official audio')[:240]
         api_key = os.getenv('YOUTUBE_API_KEY', '')
         if api_key:
@@ -131,39 +221,35 @@ def resolve_video(track_id):
                 'maxResults': 5, 'q': query})
             with urllib.request.urlopen(url, timeout=15) as response:
                 result = json.load(response)
-            for item in result.get('items', []):
-                video_id = item.get('id', {}).get('videoId', '')
-                if re.fullmatch(r'[A-Za-z0-9_-]{11}', video_id):
-                    return {'videoId': video_id, 'title': item['snippet']['title'],
-                            'channel': item['snippet']['channelTitle'], 'provider': 'youtube',
-                            'watchUrl': 'https://www.youtube.com/watch?v=' + video_id,
-                            'match': 'search', 'adsMayAppear': True}
-            raise ValueError('Запись не найдена на YouTube')
+            ids = [item.get('id', {}).get('videoId', '') for item in result.get('items', [])]
+            ids = list(dict.fromkeys(ident for ident in ids if re.fullmatch(r'[A-Za-z0-9_-]{11}', ident)))
+            if not ids:
+                return video_result(t, [])
+            details_url = 'https://www.googleapis.com/youtube/v3/videos?' + urllib.parse.urlencode({
+                'key': api_key, 'part': 'snippet,contentDetails,status', 'id': ','.join(ids)})
+            with urllib.request.urlopen(details_url, timeout=15) as response:
+                details = json.load(response)
+            entries = [{'id': item.get('id', ''), 'title': item.get('snippet', {}).get('title', ''),
+                        'channel': item.get('snippet', {}).get('channelTitle', ''),
+                        'duration': iso_duration(item.get('contentDetails', {}).get('duration', ''))}
+                       for item in details.get('items', [])
+                       if item.get('status', {}).get('embeddable') is True
+                       and item.get('status', {}).get('privacyStatus') == 'public'
+                       and item.get('snippet', {}).get('liveBroadcastContent', 'none') == 'none']
+            return video_result(t, entries)
         if not RESOLVER_SLOTS.acquire(timeout=1):
             raise RuntimeError('Поиск занят. Попробуй через несколько секунд.')
         try:
+            import yt_dlp
             with yt_dlp.YoutubeDL({'quiet': True, 'no_warnings': True, 'extract_flat': True,
                                   'skip_download': True, 'noplaylist': True,
                                   'socket_timeout': 12, 'retries': 1}) as ydl:
                 data = ydl.extract_info('ytsearch5:' + query, download=False)
             entries = [e for e in data.get('entries', []) if e and re.fullmatch(r'[A-Za-z0-9_-]{11}', e.get('id', ''))]
-            if not entries:
-                raise ValueError('Запись не найдена на YouTube')
-            def score(e):
-                name = (e.get('title') or '').casefold()
-                channel = (e.get('channel') or e.get('uploader') or '').casefold()
-                duration = e.get('duration') or t.get('duration', 0)
-                return (40 * ('topic' in channel) + 20 * ('official' in name)
-                        - min(abs(duration - t.get('duration', duration)), 200)
-                        - 80 * any(x in name for x in ('cover', 'karaoke', 'reaction', 'nightcore', 'sped up', 'live')))
-            best = max(entries, key=score)
-            return {'videoId': best['id'], 'title': best.get('title', ''),
-                    'channel': best.get('channel') or best.get('uploader', ''),
-                    'duration': best.get('duration'), 'watchUrl': 'https://www.youtube.com/watch?v=' + best['id'],
-                    'provider': 'youtube', 'match': 'search', 'adsMayAppear': True}
+            return video_result(t, entries)
         finally:
             RESOLVER_SLOTS.release()
-    return cached('yt:' + ident, 3600, resolve)
+    return cached('yt:matched-v2:' + ident, 3600, resolve)
 
 
 def route(path, query):

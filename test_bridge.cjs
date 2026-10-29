@@ -71,5 +71,27 @@ vm.runInContext(fs.readFileSync('public/video-bridge.js', 'utf8') + '\nthis.Brid
   ready(raced.player);
   await resume;
   assert.deepEqual(loads, ['abcdefghijk'], 'Pause cancels a pending resume');
-  console.log('PASS: boundaries, previous, cache, late-search race, pause during pending resume');
+  raced.wanted = true;
+  raced.isManual = false;
+  raced.activeMatches = [
+    { videoId: 'abcdefghijk', title: 'First', channel: 'Artist' },
+    { videoId: 'LQ_be1KSonc', title: 'Second', channel: 'Artist' }
+  ];
+  let failures = 0;
+  raced.addEventListener('error', () => failures++);
+  raced.handlePlayerError({ data: 101, target: { getVideoData: () => ({ video_id: 'oldoldoldol' }) } });
+  assert.equal(failures, 0, 'Stale player error must not affect current recording');
+  raced.handlePlayerError({ data: 101 });
+  assert.equal(raced.videoId, 'LQ_be1KSonc');
+  assert.equal(failures, 0, 'Embedding restriction tries a verified alternative first');
+  raced.handlePlayerError({ data: 100 });
+  assert.equal(failures, 1);
+  assert.equal(raced.error.providerCode, 100);
+  raced.handlePlayerError({ data: 100 });
+  assert.equal(failures, 1, 'Exhausted alternatives do not loop');
+  raced.loadedSource = raced.src;
+  raced.handlePlayerError({ data: 153 });
+  assert.match(raced.error.message, /адрес сайта/);
+  assert.equal(raced.error.providerCode, 153);
+  console.log('PASS: boundaries, previous, cache, races, bounded alternatives, stale errors, error reasons');
 })();

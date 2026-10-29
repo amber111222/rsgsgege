@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="theme-color" content="#101211">
   <meta name="description" content="Волна — музыкальный каталог Deezer, страницы исполнителей, плейлисты и плеер YouTube.">
   <title>Волна — музыка без пауз</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23c6f36b'/%3E%3Cpath d='M12 36q10-27 20 0t20 0M12 25q10-27 20 0t20 0' fill='none' stroke='%23101211' stroke-width='5'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://www.youtube.com"><link rel="preconnect" href="https://i.ytimg.com">
   <link rel="stylesheet" href="styles.css?v=5">
-  <script src="config.js"></script><script src="video-bridge.js?v=6" defer></script><script src="app.js?v=6" defer></script>
+  <script src="config.js"></script><script src="video-bridge.js?v=7" defer></script><script src="app.js?v=7" defer></script>
 </head>
 <body>
  <div class="app-shell">
@@ -37,7 +38,7 @@
  <div class="stage-screen"><div id="youtube-player"></div></div>
  <div class="stage-copy"><span class="eyebrow">СЕЙЧАС НА ВОЛНЕ</span><h2 id="stage-title"></h2><p id="stage-artist"></p><p id="video-meta">Подбираем запись…</p><a id="video-link" target="_blank" rel="noopener noreferrer">Открыть на YouTube ↗</a>
  <details class="stage-settings"><summary>Границы песни и источник</summary><p>Отметь, где начинается и заканчивается музыка. Границы сохраняются для этой записи в браузере.</p><div class="trim-controls"><button type="button" id="trim-start">Начало здесь</button><button type="button" id="trim-end">Конец здесь</button><button type="button" id="trim-reset">Сбросить</button></div><output id="trim-status" aria-live="polite">Вся запись</output>
- <form id="video-manual-form"><label for="video-url">Другая запись YouTube</label><div><input id="video-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required><button class="secondary-btn" type="submit">Открыть</button></div></form></details></div></section>
+ <button class="secondary-btn" type="button" id="video-auto">Подобрать запись заново</button><form id="video-manual-form"><label for="video-url">Другая запись YouTube</label><div><input id="video-url" type="url" placeholder="https://www.youtube.com/watch?v=…" required><button class="secondary-btn" type="submit">Открыть</button></div></form></details></div></section>
    <div class="content-wrap" id="page-content" aria-live="polite"></div>
   </main>
  </div>
